@@ -75,4 +75,4 @@ This project focuses on **model‑based collaborative filtering** using **ALS ma
 - MovieLens dataset by GroupLens Research
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
