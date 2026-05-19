@@ -23,6 +23,9 @@ This project focuses on **model‑based collaborative filtering** using **ALS ma
 - **Content‑based filtering:** recommends items similar to what a user already liked, based on item features.
 - **Collaborative filtering:** recommends items based on patterns learned from many users (this project).
 
+## Screenshots
+![Recommendation system overview](assets/screenshots/recommender-system.png)
+
 ## Workflow
 1. Load ratings data into Spark
 2. Clean and prepare user‑item interactions
@@ -53,11 +56,14 @@ This project focuses on **model‑based collaborative filtering** using **ALS ma
 ## Project Structure (Recommended)
 ```
 .
+├── assets/                # Images and figures
+│   └── screenshots/
 ├── data/                  # MovieLens dataset files
 ├── notebooks/             # Jupyter notebooks
-├── src/                   # Spark/PySpark pipeline code
 ├── outputs/               # Evaluation reports / recommendation samples
-└── README.md
+├── src/                   # Spark/PySpark pipeline code
+├── README.md
+└── requirements.txt
 ```
 
 ## Future Improvements
